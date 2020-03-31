@@ -1,0 +1,19 @@
+1) How to handle the frame in Selenium Webdriver?
+
+	An inline frame acronym as iframe is used to insert another document within the current HTML document or simply a web page into a web page by enabling nesting.
+
+	1) Select iframe by id or name
+		driver.switchTo().frame(“ID of the frame“);
+		driver.switchTo().frame(“name of the frame”);
+
+	2) Locating iframe using Webelement
+		driver.switchTo().frame(driver.findElements(By.tagName(“iframe”).get(0));
+
+	3) Locating iframe using index
+		driver.switchTo().frame(0);
+
+2) Assume you are within a frame. Explain how can you switch back from a frame.
+
+	To switch back from a frame use method defaultContent()
+
+	driver.switchTo().defaultContent();

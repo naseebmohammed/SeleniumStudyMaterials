@@ -1,0 +1,20 @@
+1) Write the syntax for preceding and following x-paths.
+
+Attribute Based (following) - //tagName[@attribute = 'attributeValue']/following::tagName
+
+		Eg: //p[@id = 'test']/following::button
+
+Attribute Based (preceding) - //tagName[@attribute = 'attributeValue']/preceding::tagName
+
+		Eg: //p[@id = 'test']/preceding::button
+
+2) How to get an attribute value using Selenium WebDriver?
+
+	We can achieve this by using the getAttribute() method. It returns the value of the attribute passed as a parameter.
+
+HTML: <input name="nameSelenium" value="valueSelenium">SoftwareTestingMaterial</input>
+
+Selenium Code: 
+String attributeValue = driver.findElementByName("nameSelenium").getAttribute("value");
+System.out.println("Available attribute value is :"+attributeValue);
+Output: valueSelenium

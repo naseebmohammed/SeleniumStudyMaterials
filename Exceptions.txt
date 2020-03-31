@@ -1,0 +1,74 @@
+1)What Are The Execptions Thrown By Alert,Frame ,Windows ?
+
+Alert Execptions:
+Unhandledalertexception= Execptions hierarchy of UnhandledAlertException
+
+java.lang.Object
+java.lang.Throwable
+java.lang.Exception
+java.lang.RuntimeException
+org.openqa.selenium.WebDriverException
+org.openqa.selenium.UnhandledAlertException
+Noalertpresentexception= Execptions hierarchy of NoAlertPresentException
+
+java.lang.Object
+java.lang.Throwable
+java.lang.Exception
+java.lang.RuntimeException
+org.openqa.selenium.WebDriverException
+org.openqa.selenium.NotFoundException
+org.openqa.selenium.NoAlertPresentException
+
+Frame Execptions:Execptions hierarchy of  NoSuchFrameException
+
+java.lang.Object
+java.lang.Throwable
+java.lang.Exception
+java.lang.RuntimeException
+org.openqa.selenium.WebDriverException
+org.openqa.selenium.NotFoundException
+org.openqa.selenium.NoSuchFrameException
+
+Windows Execptions:
+
+Nosuchwindowexception=Execptions hierarchy of NoSuchWindowException
+
+java.lang.Object
+java.lang.Throwable
+java.lang.Exception
+java.lang.RuntimeException
+org.openqa.selenium.WebDriverException
+org.openqa.selenium.NotFoundException
+org.openqa.selenium.NoSuchWindowException
+
+2) What are the three types of alerts? Various actions that can be performed on an alert? Can you take screen shot of an alert?
+
+There are three types of alerts
+
+Simple Alerts:
+Simple alerts just have a OK button on them. They are mainly used to display some information to the user.
+
+Confirmation Alerts:
+
+This alert comes with an option to accept or dismiss the alert.
+ 
+Prompt Alerts:
+
+In prompt alerts you get an option to add text to the alert box. 
+This is specifically used when some input is required from the user.
+
+
+Actions on the alert
+
+1) void dismiss() – The dismiss() method clicks on the “Cancel” button as soon as the pop up window appears.
+
+2) void accept() – The accept() method clicks on the “Ok” button as soon as the pop up window appears.
+
+3) String getText() – The getText() method returns the text displayed on the alert box.
+
+4) void sendKeys(String stringToSend) – The sendKeys() method enters the specified string pattern into the alert box.
+
+
+Snapshot
+Taking a snapshot in an alert is not possible in selenium
+

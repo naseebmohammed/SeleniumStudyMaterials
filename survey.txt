@@ -1,0 +1,31 @@
+https://www.surveymonkey.com/r/CKBWY7F
+
+
+https://www.youtube.com/watch?v=IYOQBUIvkWY
+
+
+
+Week2 Optional Assignments: 
+
+Assignment 1: (Tip: add Thread.sleep() whereever required)
+
+1) Launch chrome and load URL: https://www.redbus.in/
+2) Enter From (Chennai) and Tab
+3) Enter To (Trichy) and Tab
+4) Click on current date 
+5) Click on Return Date
+6) Click on current date
+7) Click Search Buses
+8) Click After 6 PM checkbox 
+9) Click Bus Type (AC) Checkbox 
+10) Print number of buses found 
+
+Assignment 2:
+
+1. Open the Browser
+2. Load the URL: https://www.flipkart.com/
+3. Hover the cursor on Electronics
+4. Click on Mi
+5. Verify title contains Mi Mobile
+6. Print all the phone names
+7. Close the Browser

@@ -1,0 +1,25 @@
+1) What is the constructor? Does it return any value?
+The constructor can be defined as the special type of method that is used to initialize the state of an
+object. It is invoked when the class is instantiated, and the memory is allocated for the object. Every time, an
+object is created using the new keyword, the default constructor of the class is called. The name of the
+constructor must be similar to the class name. The constructor must not have an explicit return type.
+The constructor implicitly returns the current instance of the class (You can&#39;t use an explicit return
+type with the constructor).
+
+2) What is the purpose of a default constructor? Can you make a constructor Final?
+The purpose of the default constructor is to assign the default value to the objects. The java compiler
+creates a default constructor implicitly if there is no constructor in the class.
+No, the constructor can&#39;t be final.
+class Student3{  
+int id;  
+String name;   
+void display(){
+System.out.println(id+&quot; &quot;+name);
+}  
+public static void main(String args[]){  
+Student3 s1=new Student3();  
+Student3 s2=new Student3();  
+s1.display();  
+s2.display();  
+}  
+}
